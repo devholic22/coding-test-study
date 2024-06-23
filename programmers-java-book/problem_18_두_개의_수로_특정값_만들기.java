@@ -1,5 +1,6 @@
 import java.util.HashMap;
 
+// 24.06.22 (토)
 public class problem_18_두_개의_수로_특정값_만들기 {
 
     public static void main(String[] args) {
