@@ -1,5 +1,3 @@
-package review_required;
-
 import java.util.ArrayDeque;
 
 // 24.06.19 (수)

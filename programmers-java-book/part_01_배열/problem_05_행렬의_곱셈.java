@@ -1,3 +1,5 @@
+package part_01_배열;
+
 // 24.06.16 (일)
 // 24.06.29 (토) review
 public class problem_05_행렬의_곱셈 {

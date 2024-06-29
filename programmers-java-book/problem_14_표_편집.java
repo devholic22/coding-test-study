@@ -1,5 +1,3 @@
-package review_required;
-
 import java.util.ArrayDeque;
 import java.util.Arrays;
 

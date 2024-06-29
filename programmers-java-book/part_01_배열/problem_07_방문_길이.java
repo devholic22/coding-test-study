@@ -1,3 +1,5 @@
+package part_01_배열;
+
 import java.util.HashMap;
 import java.util.HashSet;
 

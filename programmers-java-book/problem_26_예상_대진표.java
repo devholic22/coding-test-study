@@ -1,5 +1,3 @@
-package review_required;
-
 // 24.06.26 (수)
 public class problem_26_예상_대진표 {
 

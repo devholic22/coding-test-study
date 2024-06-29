@@ -1,3 +1,5 @@
+package part_01_배열;
+
 import java.util.ArrayList;
 
 // 24.06.15 (토)

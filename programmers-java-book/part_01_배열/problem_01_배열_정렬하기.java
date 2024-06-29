@@ -1,3 +1,5 @@
+package part_01_배열;
+
 import java.util.Arrays;
 
 // 24.06.14 (금)
