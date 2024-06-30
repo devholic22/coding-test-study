@@ -1,3 +1,5 @@
+package part_02_스택;
+
 import java.util.ArrayDeque;
 import java.util.Arrays;
 

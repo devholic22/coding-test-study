@@ -1,3 +1,5 @@
+package part_02_스택;
+
 import java.util.ArrayDeque;
 
 // 24.06.17 (월)
