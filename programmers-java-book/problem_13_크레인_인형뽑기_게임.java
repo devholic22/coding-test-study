@@ -17,16 +17,18 @@ public class problem_13_크레인_인형뽑기_게임 {
         4. 특정 col에서 마지막 값을 꺼내는 함수 작성
         5. 스택에 넣기, 같은 값이면 터트리기
         6. 터트린 횟수 변수 반환
-    시간 복잡도: O(M * N), M: board 길이, N: moves 길이
+    시간 복잡도: O(M^2 + NM), M: board 길이, N: moves 길이
     */
     public int solution(int[][] board, int[] moves) {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
         int[][] cols = new int[board.length][board.length];
         int count = 0;
+        // O(M^2)
         for (int i = 0; i < board.length; i++) {
             cols[i] = extract(i, board);
             // System.out.println(Arrays.toString(cols[i]));
         }
+        // O(N) * O(M) = O(NM)
         for (int move : moves) {
             // moves가 의미하는 것은 one-index임을 주의
             int val = pick(cols[move - 1]);
@@ -57,6 +59,8 @@ public class problem_13_크레인_인형뽑기_게임 {
     }
     // 고른 col의 원소들을 검사해가면서 가장 앞에 적재되어 있는 값을 가져오며, 해당 값을 0으로 전환합니다.
     public int pick(int[] col) {
+        // 이 때 각 열을 Stack으로 했다면 pop 메서드를 이용하여 O(1)만에 끝낼 수 있었다. 지금은 배열로 했기 때문에 O(M) 소요
+        // 즉, 이렇게 마지막 값을 꺼내는 경우에는 Stack을 활용하면 좋다.
         for (int i = 0; i < col.length; i++) {
             if (col[i] != 0) {
                 int x = col[i];
