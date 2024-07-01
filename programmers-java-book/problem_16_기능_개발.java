@@ -18,6 +18,7 @@ public class problem_16_기능_개발 {
         6. 큐에서 맨 앞에 있는 작업을 빼오고, 4번 메서드를 통해 시간을 계산한다. 그리고 5번 변수를 +1 한다. (시간만 넣어둬도 된다.)
         7. 새롭게 빼온 작업의 시간이 6번 작업보다 일찍 끝난다면 5번 변수를 +1 하고, 그게 아니라면 새롭게 변수를 선언하고 더한다.
         8. ArrayList를 int[]로 변환하여 반환한다.
+    시간 복잡도는 O(N)이 된다.
     */
     public int[] solution(int[] progresses, int[] speeds) {
         ArrayDeque<Integer> queue = new ArrayDeque<>();
