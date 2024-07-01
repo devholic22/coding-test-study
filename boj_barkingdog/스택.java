@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayDeque;
+// 24.06.30 (일)
 public class 스택 {
     // 명령의 수 N : 1 ~ 10,000 -> O(N^2)까지 가능하나, O(N)으로 풀 수 있음
     // 각 명령의 정수는 1 ~ 100,000
