@@ -1,3 +1,5 @@
+package part_04_해시;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

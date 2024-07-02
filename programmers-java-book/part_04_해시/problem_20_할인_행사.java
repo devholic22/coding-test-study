@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package part_04_해시;
+
 import java.util.HashMap;
 
 // 24.06.23 (일)
