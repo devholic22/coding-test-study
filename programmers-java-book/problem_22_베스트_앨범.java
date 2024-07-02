@@ -20,7 +20,7 @@ public class problem_22_베스트_앨범 {
         5. 정렬된 노래를 돌면서 인덱스 담고 반환
             5-1. 각 장르가 몇 개 수록되었는지 기록하는 HashMap 선언
             5-2. 각 노래를 담을 때 마다 장르 기록, 2개까지만 저장되도록 설정
-    시간 복잡도: O(N) 최대 10,000
+    시간 복잡도: O(NlogN) 최대 10,000
     */
     public class Song implements Comparable<Song> {
         String genreName;
