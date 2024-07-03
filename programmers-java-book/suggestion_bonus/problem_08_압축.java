@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 // 24.07.03 (수)
-public class problem_09_압축 {
+public class problem_08_압축 {
 
     // 1 <= msg.length() <= 1000 -> O(N^2)도 가능
     /*
