@@ -13,7 +13,7 @@ public class problem_27_다단계_칫솔_판매 {
         2. enroll과 referral을 이용하여 트리 관계를 만든다. 완벽한 이진 트리가 아니기에 참조 형태로 만든다.
         3. seller와 amount를 이용하여 수익 계산을 한다.
         4. 계산된 값을 문제에 맞게 반환한다.
-    시간 복잡도: O(NlogN)
+    시간 복잡도: O(N * M + NlogN) (부모를 탐색해야 하므로)
     */
     public class Person implements Comparable<Person> {
         String name;
