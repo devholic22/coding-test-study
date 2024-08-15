@@ -3,6 +3,7 @@ package algorithm_kit.해시;
 import java.util.Arrays;
 import java.util.HashSet;
 
+// 24.08.15 (목)
 public class problem_03_전화번호_목록 {
 
     public boolean solution(String[] phone_book) {
